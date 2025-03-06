@@ -1,6 +1,5 @@
-from fastapi import FastAPI, HTTPException, Path, Query
-from pydantic import BaseModel, Field
-from typing import Optional
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
 
 class Course(BaseModel):
